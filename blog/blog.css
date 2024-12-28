@@ -1,0 +1,167 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    background-color: #1b1b1b;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 0;
+    position: relative;
+}
+
+.header-content {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.search-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.search-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-box input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    padding: 5px 30px 5px 5px;
+    width: 200px;
+    font-family: inherit;
+}
+
+.search-box i {
+    position: absolute;
+    right: 5px;
+    color: #fff;
+}
+
+nav {
+    margin-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.1); */
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Rest of your existing CSS remains the same */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+   
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0;
+    gap: 20px;
+}
+
+.main-article {
+    flex: 2;
+    background: url('pexels-photo-2118045.webp') no-repeat center center/cover;
+    padding: 4rem;
+    position: relative;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.side-articles {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.article {
+    background: url('pexels-photo-29899534.webp') no-repeat center center/cover;
+    padding: 2rem;
+    min-height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.article1 {
+    background: url('pexels-photo-1714208.webp') no-repeat center center/cover;
+    padding: 2rem;
+    min-height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+    padding: 2rem 0;
+    background-color: #fff;
+}
+
+.card {
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 0;
+}
